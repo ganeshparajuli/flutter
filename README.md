@@ -14,3 +14,16 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+###Dart Example Program:
+void main(){
+int myNumber=21;
+myNumber=changeNumber(myNumber);
+print(myNumber);         
+}
+
+int changeNumber(int  oldNumber){
+return oldNumber*2;
+}
+
+                   
