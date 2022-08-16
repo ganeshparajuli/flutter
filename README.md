@@ -94,6 +94,12 @@ flutter pub get
 flutter pub upgrade
 flutter pub outdated
 
+
+*************
+flutter pub upgrade --major-versions
+flutter pub upgrade --dry-run
+
+
 ```
 ### Flutter TextField example Program
 ```
