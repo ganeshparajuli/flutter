@@ -52,6 +52,9 @@ Flutter create App_Name
 
 Flutter run 
 
+----
+some case: flutter run -t main_dev.dart
+
  
 
 *****to connect in mobile 
@@ -75,6 +78,19 @@ adb connect 192.128.1.3:5555   //ip should be of mobile(see from aboutphone/stat
 Shortcut: 
 
 Ctrl+ . (it will suggest the wrapper) 
+
+
+fluter channel
+flutter channel stable
+flutter upgrade
+
+
+
+flutter clean
+flutter pub cache repair
+flutter pub get
+
+
 ```
 ### Flutter TextField example Program
 ```
