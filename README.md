@@ -99,6 +99,14 @@ flutter pub outdated
 flutter pub upgrade --major-versions
 flutter pub upgrade --dry-run
 
+****************gradle
+cd android
+./gradlew clean
+---------
+cd ..
+./gradlew build 
+
+
 
 ```
 ### Flutter TextField example Program
