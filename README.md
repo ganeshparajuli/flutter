@@ -103,7 +103,14 @@ flutter pub upgrade --dry-run
 cd android
 ./gradlew clean
 ---------
-cd ..
+cd android
+./gradlew --refresh-dependencies
+--------------
+cd android
+./gradlew
+------------
+
+cd android
 ./gradlew build 
 
 
