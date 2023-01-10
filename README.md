@@ -68,10 +68,13 @@ Then check in vsc: flutter devices
  
 
 Remote connect: 
-
+first connect with usb cable
 adb tcpip 5555 
 
 adb connect 192.128.1.3:5555   //ip should be of mobile(see from aboutphone/status)  
+now disconnect the usb cable
+test connection: flutter devices
+run app: flutter run
 
  
 
